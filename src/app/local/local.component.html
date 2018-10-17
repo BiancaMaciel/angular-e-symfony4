@@ -1,0 +1,9 @@
+<nav class="navbar navbar-light bg-info" >
+  <a href="https://www.climatempo.com.br/" class="navbar-brand" target="_blank"><img src="assets/img/logo-white.png" alt="Climatempo" width="100px"></a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="text" placeholder="Inserir Osasco ou SP" aria-label="Search" id="city" [(ngModel)]="city" name="city" >
+    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" (click)="buscar()" ><img src="assets/img/icons/search.png" width="20px"></button>
+  </form>
+</nav>
+<br>
+<app-my-list></app-my-list>

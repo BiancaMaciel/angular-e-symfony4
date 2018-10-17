@@ -1,0 +1,11 @@
+.description ul li p {
+    float: right;
+}
+
+.description li {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+}
